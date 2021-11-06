@@ -1,0 +1,79 @@
+body{
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: white;
+    padding: 1em;
+}
+    .logo{
+        font-size: 5em;
+        text-align: center;
+        border-radius: 5em;
+        border-style: groove;
+        border-color: black;
+    }
+
+    span{
+        color: #007af3
+    }
+
+.subhead{
+    font-size: 3em;
+    text-align: center;
+}
+
+.forms_button{
+    background: #007af3;
+    color: white;
+    width: 15%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin: 1em;
+    font-size: 1.5em;
+    border-radius: 5em;
+}
+
+.forms{
+    width: 60%;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid grey;
+    margin-left: 15%;
+    font-size: 1.4em;
+}
+
+.container1{
+    font-size: 3em;
+    text-align: center;
+    color: #007af3
+}
+
+.hero2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.recomm{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.recomm2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.back{
+    background: #007af3;
+    color: white;
+    width: 30%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin: 1em;
+    font-size: 1.5em;
+    border-radius: 5em;
+    margin-left: 35%;
+}
