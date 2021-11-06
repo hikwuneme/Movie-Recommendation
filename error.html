@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Submit Page</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <div class = 'header'>
+            <div class="container1">
+                <h3>Shoot! Sorry but it looks like the movie name you entered does not exist in the database</h3>
+            </div>
+        </div>
+        <section class="hero">
+            <div class="container">
+                <p class="hero2">Although this is quite disappointing, there are some recommendations for you!</p>
+                <p class="recomm2">1. Check that you have spelt the movie name correctly?</p>
+                <p class="recomm2">2. Check that this a movie that has been released on Netflix?</p>
+                <br>
+                <br>
+                <p class="hero2">You should definitely try again</p>
+
+                <button class='back' onclick="goBack()">Yes, I want to try again</button>
+                <script>
+                function goBack() {
+                window.history.back();
+                }
+                </script>
+            </div>
+        
+    </body>
+</html>
